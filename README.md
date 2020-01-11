@@ -13,7 +13,8 @@ The base code was given. It simulates the workings of a L1 cache. The code was t
 ## Usage 
 
 Run the make file on a linux machine using the make command. Execute the following command from the teriminal to run the program. 
-./smp_cache <cache_size>  <assoc> <block_size> <num_processors> <protocol> <trace_file>
+
+                  ./smp_cache <cache_size>  <assoc> <block_size> <num_processors> <protocol> <trace_file>
 
 Where: 
 * `smp_cache`: Executable of the SMP simulator generated after making. 
